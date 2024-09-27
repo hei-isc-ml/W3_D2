@@ -2,18 +2,18 @@
 
 ## Missions & Activities:
 
-### Activity 1 – ~30 minutes
-- **Peer Review and Validation of SVM (Halfdays 1-2)**: Work in pairs to review and compare your code and results. Exchange the outcome of the previous activity and discuss your approach. Write together 1-2 slides with a list of the key-differences concerning:
-    - The result you had
-    - The method you used to get to that results
-- **Consolidation by the Professor**: After peer review, the professor will provide further clarification and consolidation of the concepts.
-
-### Activity 2
-- **Problem**: Use a Genetic Algorithm (GA) to find a quasi-optimal solution for a simple problem (suggestions are below).
-- **Tools**: Pure python (suggested) or [DEAP](https://deap.readthedocs.io/en/master/) library or other libraries(e.g., [PyGAD](https://pygad.readthedocs.io/en/latest/))
+### Activity 1
+- **Problem**: Use a Genetic Algorithm (GA) to find a quasi-optimal solution for a simple problem (i.e., solve a mastermind game).
+- **Tools**: Pure [python](https://machinelearningmastery.com/simple-genetic-algorithm-from-scratch-in-python/) *or* [DEAP](https://deap.readthedocs.io/en/master/) library *or* other libraries (e.g., [PyGAD](https://pygad.readthedocs.io/en/latest/))
 - **New/Consolidation of ML Glossary**:
   - **Steps**: Initialization, selection, crossover, mutation, evaluation.
   - **Terminology**: Gene, individual (or chromosome), population, parents, children, elite, fitness scores.
+
+### Activity 2 – ~30 minutes
+- **Peer Review and Validation of Genetic Algorithms (Halfday 3-4)**: Work in pairs to review and compare your code and results. Exchange the outcome of the previous activity and discuss your approach. Write together 1-2 slides with a list of the key-differences concerning:
+    - The result you had
+    - The method you used to get to that results
+- **Consolidation by the Professor**: After peer review, the professor will provide further clarification and consolidation of the concepts.
 
 ## Expected Outcomes:
 - **Halfday 3**:
@@ -48,4 +48,6 @@
     - What are the potential pitfalls or limitations of the use of elitism?
 
 ### Implementing GA (provide these answers in the jupyter notebook)
-- Explain the main GA steps also in your code: Initialization, selection, crossover, mutation, evaluation (1 slide per step). Is there any difference compared to what you presented in the slides?
+- Explain the main GA steps also in your code: Initialization, selection, crossover, mutation, evaluation (1 slide per step). (Sanity check) Is there any difference compared to what you presented in the slides?
+- Discuss which hyper-parameters you tested (e.g., varying number of generations, mutation rate, etc.) and their impact on the results
+- Discuss which other hyper-parameters you did not test (if any), but would you test if you had more time. 
